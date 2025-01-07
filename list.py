@@ -1,0 +1,15 @@
+l = ["one","two","three","four"]
+l_1 = ["hello","hi"]
+print(l[1])
+print(type(l[1]))
+a = type(l)
+print(a)
+print(len(l))
+l.insert(1,"1")
+l.append("4")
+print(l)
+l.extend(l_1)
+print(l)
+l.pop(1)
+print(l)
+print(l.count("four"))
