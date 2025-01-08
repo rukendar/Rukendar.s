@@ -5,8 +5,8 @@ print(result)
 d = {1:"hello",2:"world",3:"welcome"}
 print(d[1])
 """
-get init
-git add
+git init
+git add .
 git commit -m "any name about project"
 git push origin main
 
